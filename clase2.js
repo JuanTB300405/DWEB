@@ -84,6 +84,14 @@ console.log("Se elimino el elemento: "  + asignar(numeros, eliminar))
 
 console.log( mostrar(numeros));
 
+// *****************************************************************
+// clase 3 
+
+
+
+
+
+
  
 
 

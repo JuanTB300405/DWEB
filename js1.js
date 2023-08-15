@@ -57,3 +57,5 @@ for(let i=0;i<10;i++){
  numero3=numero3+1
 
 }
+
+console.log("prueba");

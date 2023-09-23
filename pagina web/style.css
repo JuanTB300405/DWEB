@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+
+}
+h2{
+    color:red;
+    font-size:  30px;
+}
+
+.lista{
+    display: flex;
+    width: 100%;
+    flex-direction:row;
+    justify-content:start;
+    flex-wrap: nowrap;
+    gap: 20px;
+   
+}
+
+.lista  .pelicula{
+  width: 400px;
+  color:crimson;
+  font-size: 25px;
+  list-style: none;
+}
+.lista  .temporada{
+    width: 300px;
+    color:crimson;
+    font-size: 25px;
+    list-style: none;
+  }
+  
+
+.pelicula li{
+    width: 100%;
+    color: white;
+    
+}
+
+#Spidervers{
+    color:purple;
+    font-size: 30px;
+    letter-spacing: 0;
+    
+}
+
+.lista .temporada{
+    color:crimson;
+    font-size: 25px ;
+}
+
+.lista .articulo{
+    color: white;
+    font-size:20;
+}
+
+.sublista li::marker{
+    list-style: none;
+}
+.sublista li{
+    list-style-type:'🎭';
+}
+#barraS{
+    width: 100%;
+    background-color:black;
+    border-color: red;
+    display: flex;
+    justify-content:flex-start;
+}
+
+#barraS li {
+    width: 200px;
+   font-size: 30px;
+   list-style: none;
+}
+
+#barraS li > .link__barra{
+    color:white;
+}
+
+.peliM{
+    height: 200px;
+    width: 250px;
+}
+
+#spiderman{
+    background-image:url('remplazo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left   ;
+}
+#house{
+    background-image:url('hospital.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left   ;
+}

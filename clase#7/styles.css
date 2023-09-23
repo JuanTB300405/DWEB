@@ -1,0 +1,16 @@
+#piedra,#papel,#tijera{
+  width: 80px;
+  font-size: 20px;
+  margin:0cqmin
+}
+body{
+    background-color: aqua;
+}
+
+#root{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly ;
+  background-color: purple;
+ 
+}

@@ -6,3 +6,20 @@
     border-radius: 5px; 
     cursor: pointer;
 }
+
+.parrafo{
+    position: absolute; /* Asegura que la posición sea absoluta dentro del contenedor */
+    right: 0;
+    left: 750px;; /* Se coloca en el lado derecho */
+    top: 180px; /* Se coloca en la parte superior */
+    padding: 10px;
+}
+
+.barra{
+   position:absolute;
+   right:0;
+   left:800px;
+   top:0;
+   padding: 10px; 
+}
+

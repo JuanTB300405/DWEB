@@ -1,4 +1,4 @@
-const suma = (a,b) =>{
+econst suma = (a,b) =>{
     /**
      * a y b son los parámetros de entrada.
      * La función debe devolver la suma de los parámetros de entrada

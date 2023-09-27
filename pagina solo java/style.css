@@ -1,0 +1,62 @@
+body{
+    background-image: url(imagenes/chill.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#root {
+    box-shadow: 10px 3px 5px rgba(0, 0, 0, 0.3);
+}
+#root .container .listas {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    list-style: none;
+    gap: 30px;
+    background-color: rgba(245, 73, 110, 0.8); 
+    padding: 10px; 
+    color: black;
+    align-items: center;
+    font-weight: bold;
+    
+}
+#root .container .listas .links {
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.listaC{
+    display: flex;
+    flex-direction:row;
+}
+.sublista{
+    display: flex;
+    flex-direction: column;
+}
+#contentSection .listaC > .imagenes{
+    height: 500px;
+    width:  500px;
+}
+#contentSection .listaC > .sublista .articulo
+{
+    color:white;
+    font-weight: bold;
+    list-style: none;
+    font-size:30px ;
+}
+#contentSection .listaC > .sublista .articuloT{
+    font-weight: bold;
+    list-style: none;
+    color:red;
+    font-size: 40px;
+}
+#TF{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    background-color: white;
+}
+.fsection  h2{
+    align-self: center;
+    }
+    

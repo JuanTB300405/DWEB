@@ -5,7 +5,7 @@ lista.id="listaR";
 const nombres=['ver Spiderverse','ver doctor house','acerca de nosotros'];
 const links=['#spidervers','#temporada4','#TF'];
 const hr1=document.createElement('hr');
-referencia.appendChild(hr1);
+
 for (let i= 0; i < nombres.length; i++) {
     li1=document.createElement('li');
     articulos=document.createElement('a');
@@ -16,7 +16,7 @@ for (let i= 0; i < nombres.length; i++) {
     lista.appendChild(li1);
 }
 referencia.appendChild(lista);
-const hr2=document.createElement('hr');
-referencia.appendChild(hr2);
+
+
 
 
